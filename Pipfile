@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+v = {editable = true,version = "*"}
+pdoc3 = "*"
 
 [packages]
 falcon = "*"
